@@ -1,5 +1,10 @@
 .faq {
     padding: 5.6vw;
+    padding-bottom: 0;
+
+    @media (max-width: 768px) {
+        padding-top: 12vw;
+    }
 
     h2 {
         text-align: center;

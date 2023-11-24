@@ -1,14 +1,14 @@
 @use 'variaveis';
 
 .footer {
-    padding: 26px 8px;
+    padding: 26px 8px 0;
 
     &__container {
         max-width: 1024px;
         width: 100%;
         margin: 0 auto;
         text-align: center;
-        padding-bottom: 20px;
+        padding-bottom: 0;
     }
 
     &__logo {
@@ -17,7 +17,7 @@
     }
 
     &__links {
-        margin-bottom: 16px;
+        margin-bottom: 4px;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
