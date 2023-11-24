@@ -163,26 +163,9 @@ body {
 }
 
 
-section {
+section.shows {
+    border-top: 8px dashed variaveis.$corDoHeader;
     border-bottom: 8px dashed variaveis.$corDoHeader;
-}
-
-section.hero {
-    border: none;
-    @media (max-width: 768px) {
-        border-bottom: 8px dashed variaveis.$corDoHeader;
-    }
-}
-
-section.faq {
-        border-bottom: none;
-}
-
-section.image-text-section {
-    @media (max-width: 768px) {
-        padding: 12vw 5.6vw;
-        padding-top: 0;
-    }
 }
 
 .image-text-section {
