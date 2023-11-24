@@ -2,7 +2,7 @@
 
 .header {
     position: sticky;
-    top: 0;
+    top: -2px;
     left: 0;
     background-color: variaveis.$corDoHeader;
     transition: opacity .7s ease;
@@ -49,9 +49,14 @@
         width: 100%;
         margin: 5px;
         transition: opacity .7s ease;
+        max-width: 16vw;
 
         @media (max-width: 768px) {
-            max-width: 64px;
+            max-width: 40vw;
+        }
+
+        @media (max-width: 1278px) {
+            max-width: 26vw;
         }
     }
 
@@ -66,12 +71,15 @@
 
     .button {
         height: 50px;
+        text-align: center;
 
         @media (max-width: 768px) {
             font-size: 13px;
             padding: 8px 11px;
             height: 40px;
             letter-spacing: 0;
+            max-width: 20vw;
+            
         }   
     }
 }
