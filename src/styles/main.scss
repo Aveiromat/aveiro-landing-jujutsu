@@ -77,11 +77,19 @@ body {
 }
 
 .min-container {
-    max-width: 336px;
 
     @media (max-width: 768px) {
         text-align: justify;
     }
+
+    @media (min-width: 1200px) {
+        max-width: 22vw;
+    }
+}
+
+.hero .text--small,
+.hero .text {
+    color: variaveis.$corTextoSecundario;
 }
 
 .title {
