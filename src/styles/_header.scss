@@ -41,6 +41,7 @@
 
         @media (max-width: 768px) {
             padding: 0 12px 0 20px;
+            justify-content: space-evenly;
         }
     }
 
@@ -56,7 +57,7 @@
         }
 
         @media (max-width: 1278px) {
-            max-width: 26vw;
+            max-width: 32vw;
         }
     }
 
@@ -74,11 +75,12 @@
         text-align: center;
 
         @media (max-width: 768px) {
-            font-size: 13px;
+            font-size: 10px;
+            font-weight: normal;
             padding: 8px 11px;
             height: 40px;
             letter-spacing: 0;
-            max-width: 20vw;
+            max-width: 28vw;
             
         }   
     }
