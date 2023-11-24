@@ -67,3 +67,12 @@ img.icons {
         justify-self: center;
     }
 }
+
+.center {
+    
+    @media (min-width: 768px) {
+    display: flex;
+    justify-self: center;
+    max-width: 16vh;
+    }
+}
